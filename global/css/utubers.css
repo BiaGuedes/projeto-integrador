@@ -1,0 +1,454 @@
+@CHARSET "UTF-8";
+
+html, body {
+    height: 100%;
+}
+
+body {
+  background-color:rgba(252, 252, 252, 0.2); /*  #FFFEFE*/
+}
+
+#ictema {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#navfotos {
+    padding: 0;
+    height: 100px;
+}
+
+#navfotos ul {
+    padding: 0;
+    padding-top: 25px;
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+}
+
+#navfotos ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#navfotos ul li a img {
+    position: relative;
+    transition: .1s;
+    height: 70px;
+}
+
+#setadir, #setaesq {
+    color: rgba(0, 0, 0, .2);
+    height: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    transition: .4s;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+#setadir span, #setaesq span {
+    vertical-align: middle;
+}
+
+#setadir:hover, #setaesq:hover {
+    color: rgba(0, 0, 0, .25);
+    background: rgba(0, 0, 0, .05);
+    transition: .4s;
+}
+
+#footer {
+    background-color: #666;
+}
+
+#footer .divider {
+    width: 80%;
+    height: 1px;
+    background-color: #555;
+}
+
+#footer div h1 {
+    font-size: 18px;
+    color: #f7f7f7;
+}
+
+.lks {
+    border-top: 3px solid transparent;
+    transition: .3s;
+}
+
+.lks:hover {
+    border-color: #f7f7f7;
+    transition: .3s;
+}
+
+.lks h1 a {
+    color: #9d9d9d;
+    font-size: 16px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.lks h1 a:hover {
+    color: #f7f7f7;
+    transition: .3s;
+}
+
+.lks h2 a {
+    color: #9d9d9d;
+    font-size: 14px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.lks h2 a:hover {
+    color: #f7f7f7;
+    transition: .3s;
+}
+
+.lks ul {
+    padding: 0;
+}
+
+.lks ul li {
+    list-style: none;
+}
+
+.lks ul li a {
+    color: #9d9d9d;
+    font-size: 12px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.lks ul li a:hover {
+    color: #f7f7f7;
+    transition: .3s;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.social a {
+    color: #9d9d9d;
+    transition: .3s;
+}
+
+.social a:hover {
+    color: #f7f7f7;
+    transition: .3s;
+}
+
+#sobrecontato {
+    padding: 10px 0;
+}
+
+#sobrecontato a {
+    text-decoration: none;
+    color: #9d9d9d;
+    transition: .3s;
+}
+
+#sobrecontato a:hover {
+    color: #f7f7f7;
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    #navfotos ul {
+        overflow-x: scroll;
+    }
+
+    #gastrr{
+        content: url("../imagens/gastronomismo2.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    #navfotos ul li a img {
+        height: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #navfotos ul li a img:hover {
+        transition: .21s;
+        margin-top: -20px;
+    }
+}
+
+.linh {
+    height: 1px;
+    background-color: #999;
+    text-align: center;
+}
+
+.linh span {
+    background-color: white;
+    position: relative;
+    top: -0.7em;
+    padding: 0 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #777;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .linh span {
+        padding: 0 10px;
+    }
+}
+
+.articlesa{
+    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 0 2px 1px rgb(235,235,235);
+}
+
+@media (max-width: 768px) {
+    .articlesa{
+        padding: 0;
+    }
+}
+
+.articlesa .linh{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#sobr{
+    padding-top: 2px;
+}
+
+#timeline{
+    margin-bottom: 20px;
+}
+
+.font18px{
+    font-size: 18px;
+}
+
+.padd0{
+    padding: 0;
+}
+
+.marglef10{
+    margin-left: 10px;
+}
+
+.margtop50{
+    margin-top: 50px;
+}
+
+.margtop0{
+    margin-top: 0 !important;
+}
+
+.margbot50{
+    margin-bottom: 50px;
+}
+
+.margbot20{
+    margin-bottom: 20px !important;
+}
+
+.margtop20{
+    margin-top: 20px !important;
+}
+
+.fotoint img{
+    margin-top: 20px;
+    height:120px;
+    width: 120px;
+}
+
+.infoint h1{
+    font-size: 16px;
+}
+
+.ints{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .ints{
+        text-align: center;
+    }
+}
+
+.liststnone li{
+    list-style: none;
+}
+
+textarea{
+    max-width: 100%;
+}
+
+.publicidade{
+    height: 170px;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    #recomend {
+        max-height: 450px;
+        overflow-y: scroll;
+    }
+}
+
+#recomend > div{
+    padding: 5px 0;
+}
+
+#recomend > div > .vid{
+    height:100% !important;
+}
+
+#recomend > div > .des{
+    overflow-y: hidden;
+}
+
+.paddtop20{
+    padding-top: 20px !important;
+}
+
+.paddbot20{
+    padding-bottom: 20px !important;
+}
+
+#newsl{
+    padding:20px;
+    border: thin solid #ccc;
+}
+
+
+@media (max-width: 430px){
+
+    #recomend>div>div {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #recomend>div>div {
+        padding: 0 15px;
+    }
+
+    #public1{
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    #public1 img{
+        content: url("../imagens/public1xs.jpg");
+        float: none;
+    }
+
+}
+@media (max-width: 992px) {
+
+    .assin > div > img{
+        margin-top: 0;
+    }
+
+    .assin > div > form{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .assin > div{
+        width: 100%;
+    }
+
+}
+
+.botao-h {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.botao-h:hover{
+  color:#D70019;
+}
+
+.margtop10{
+    margin-top: 10px !important;
+}
+
+.faix{
+    width: 100%;
+    padding: 0 1px;
+}
+.faix>div{
+    width: 100%;
+    height: 10px;
+    border-radius: 2px;
+}
+
+
+
+#formEnq{
+    display: block;
+}
+
+#formEnq>h1{
+    display: block;
+    margin: 0!important;
+}
+
+.secen{
+    border: thin solid #ccc;
+}
+
+/* ADD BY LARISSA */
+
+a img {
+  opacity: 1.0;
+  /*filter: alpha(opacity=100);*/
+}
+
+a img:hover{
+  opacity: 0.6;
+  /*filter: alpha(opacity=40);*/
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+a.link {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+
+}
