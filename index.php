@@ -141,7 +141,7 @@ $nav1.nav1('#D70019', '', $linksnav1, 'none', ['global/imagens/ut.png','./']);
         <div class="linh col-xs-10 col-xs-offset-1"></div>
         <div class="col-xs-12 col-md-7 ">
             <div class="col-xs-12 col-sm-6 margtop20" >
-                <a href="lifestyle/viagem/camilacoutinho.php"><img src="lifestyle/imagens/adv-camicoutinho.jpg" id="gastrr" alt="Canal Garotas Estúpidas" class="img-responsive"></a>
+                <a href="lifestyle/viagem/camilacoutinho.php"><img src="./lifestyle/imagens/adv-camicoutinho.jpg" alt="Canal Garotas Estúpidas" class="img-responsive"></a>
             </div>
             <div class="col-xs-12 col-sm-6">
                 <h1>Texto sobre o youtuber</h1>
@@ -294,9 +294,5 @@ $linksfooter['Lifestyle'] = [
 $footer.footer($linksfooter, 'quemsomos.php', 'contato.php');
 
 ?>
-<script>
-
-
-</script>
 </body>
 </html>

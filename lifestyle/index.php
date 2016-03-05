@@ -323,6 +323,7 @@
                   </li>
                 </ul>
               </section>
+              <hr class="visible-xs">
             </div> <!-- final div col publicados recentemente -->
             <div class="col-md-4 col-sm-4">
               <section>
