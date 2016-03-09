@@ -219,9 +219,16 @@ img.square3 {
     text-transform: uppercase;
     top: -0.7em;
 }
+@media screen and (max-width: 600px) {
+  .titles span {
+    font-size: 15px;
+  }
+}
+
 .titles ol, ul {
   margin: 1% 10px;
 }
+
 
 /* ESPAÇAMENTO TOP  */
 .top {
@@ -277,6 +284,7 @@ img.square3 {
 /* Small devices (tablets, 768px and up) */
 
 @media (max-width: 768px) {
+
     .assista {
       margin-top: -1100px;
     }
@@ -332,7 +340,7 @@ img.square3 {
       padding: 20px 10px;
     }
 
-    .top-mbl {
+      .top-mbl {
       margin: 0 auto;
       height: 100px;
       border-bottom:1px solid #313030;

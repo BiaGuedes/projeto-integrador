@@ -233,38 +233,37 @@
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
       <section>
         <h2 class="titles margin-gd margin-mbl4"><span>O que levar na mala?</span></h2>
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lut0-RqkJIg"></iframe>
-              </div>
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Bogr68dRpfs"></iframe>
-              </div>
-            </div> <!-- fecha 1a col -->
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <p><a class="pull-right margin-gd" href="brunavieira.php#bag">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </a></p>
-              <hr class="mala">
-              <p><a href="camilacoutinho.php#bag">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </a></p>
-            </div> <!-- fecha 2a col -->
-            </div> <!-- fecha row -->
-            </section>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <aside>
-                <img src="../imagens/bruna-fora.jpg" alt="Viagem - Bruna Vieira"/>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <button  type="button" class="botao btn btn-default">Acessar a  Página</button>
-              </aside>
-            </div> <!-- fecha col -->
-    </div> <!-- final col -->
-  </div> <!-- final row -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lut0-RqkJIg"></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Bogr68dRpfs"></iframe>
+      </div>
+    </div> <!-- fecha 1a col -->
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <p><a class="pull-right margin-gd" href="brunavieira.php#bag">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </a></p>
+      <hr class="mala">
+      <p><a href="camilacoutinho.php#bag">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </a></p>
+    </div> <!-- fecha 2a col -->
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <aside>
+        <img src="../imagens/bruna-fora.jpg" alt="Viagem - Bruna Vieira"/>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button  type="button" class="botao btn btn-default">Acessar a  Página</button>
+      </aside>
+    </div>
+</div>
 <div class="row">
   <div class="col-md-12">
     <section>
