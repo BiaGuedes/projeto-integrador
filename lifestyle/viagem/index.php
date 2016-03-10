@@ -268,7 +268,7 @@
   <div class="col-md-12">
     <section>
       <h2 class="titles margin-gd margin-mbl4"><span>Alguns países visitados</span></h2>
-    <ul class="list-unstyled list-inline">
+    <ul class="list-unstyled list-inline text-center">
       <li><a href="brunavieira.php#arg" title="Argentina"><img class="img-responsive" src="../imagens/arg.jpg" alt="Argentina" /></a></li>
       <li><a href="brunavieira.php#bra" title="Brasil"><img class="img-responsive" src="../imagens/bra.jpg" alt="Brasil" /></a></li>
       <li><a href="lusicchi.php#fra" title="França"><img class="img-responsive" src="../imagens/fra.jpg" alt="França" /></a></li>

@@ -166,6 +166,9 @@ a.slider-link:hover {
   margin: 120px auto;
 }
 
+.margin-img {
+  margin-left: 10px;
+}
 /* MARGEM USADA NOS TITLES*/
 .margin-gd {
   margin: 35px auto;

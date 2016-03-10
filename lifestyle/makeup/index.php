@@ -201,7 +201,7 @@
 <div class="row">
   <section>
     <h3>Conheça as Youtubers Experts em Beleza!</h3>
-    <ul class="list-inline list-unstyled">
+    <ul class="list-inline list-unstyled text-center">
       <li>
         <h4 class="text-center link">Alice Salazar</h4>
         <a href="alicesalazar.php"><img class="img-responsive" src="../imagens/alice-ytbrs.jpg" alt="Página de Alice Salazar"/></a>
