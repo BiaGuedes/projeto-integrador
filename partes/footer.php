@@ -4,7 +4,7 @@ function footer($links, $sobre, $contato){
 
     $keys = array_keys($links);
     $foot = '<div class="clearfix"></div>
-    <div id="footer" class="container col-md-12 col-xs-12">
+    <div id="footer" class="col-md-12 col-xs-12">
       <div class="col-xs-12 col-sm-10 col-md-8 col-md-offset-2 col-sm-offset-1">
         <h1>Redes Sociais</h1>
         <div class="col-xs-12">
@@ -71,8 +71,3 @@ function footer($links, $sobre, $contato){
 
 
 ?>
-
-
-
-
-
