@@ -190,7 +190,7 @@
               <div class="visible-xs col-xs-12"> <!-- falta col-xs -->
                 <aside>
                   <hr>
-                  <a href="viagem/camilacoutinho.php" title="Uma Garota Estúpida e Très Chic - Camila Coutinho" target="_blank"><img src="imagens/adv-camicoutinho.jpg" alt="Camila Coutinho em Garotas Estúpidas." /></a>
+                  <a href="viagem/camilacoutinho.php" title="Uma Garota Estúpida e Très Chic - Camila Coutinho" target="_blank"><img class="img-responsive" src="imagens/adv-camicoutinho.jpg" alt="Camila Coutinho em Garotas Estúpidas." /></a>
                 </aside>
               </div> <!-- final div col-->
               <div class="hidden-xs col-md-4 col-sm-8">
@@ -234,11 +234,11 @@
               </section>
             </div>
           </div> <!-- final div row 2 -->
-          <div class="row teste">
+          <div class="row top-vlogs-margin">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <section class="top text-center">
                 <div class="titles bigger margin-gd margin-mbl3">
-                  <h2><span class="teste teste-sm">Top Vlogs</span></h2>
+                  <h2><span class="teste-sm">Top Vlogs</span></h2>
                   <p class="hidden-xs pdg-gd">Lorem ipsum dolor sit amet, ne aeque legimus sit.</p>
                 </div>
                 <div class="row">

@@ -279,12 +279,13 @@ img.square3 {
     padding: 10px;
   }
 
-  .teste {
+/* verificar necessidade */
+  .top-vlogs-margin {
     margin-top: 20px;
   }
 
   .teste-sm {
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
 
@@ -343,6 +344,12 @@ img.square3 {
       margin-top: 820px;
     }
 
+
+    .top-vlogs-margin {
+      margin-top: 65px;
+    }
+
+
     .titles span {
       padding: 20px 10px;
     }
@@ -352,4 +359,17 @@ img.square3 {
       height: 100px;
       border-bottom:1px solid #313030;
     }
+}
+
+/* smaller devices */
+
+@media (max-width: 320px) {
+
+  .top-vlogs-margin {
+    margin-top: 50px;
+  }
+
+li a {
+  font-size: .8em;
+}
 }
