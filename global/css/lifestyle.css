@@ -364,12 +364,14 @@ img.square3 {
 /* smaller devices */
 
 @media (max-width: 320px) {
-
+  .viagem-margin-xxs {
+    margin-top: 20px;
+  }
   .top-vlogs-margin {
     margin-top: 50px;
   }
 
-li a {
-  font-size: .8em;
-}
+  li a {
+    font-size: .8em;
+  }
 }

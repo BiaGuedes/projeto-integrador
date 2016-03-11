@@ -214,7 +214,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
               <section class="titles margin-gd margin-mbl2">
                 <h3><span>Viagem</span></h3>
-                <img class="img-responsive" src="imagens/trip1.jpg" alt="Conheça Barcelona"/>
+                <img class="viagem-margin-xxs img-responsive" src="imagens/trip1.jpg" alt="Conheça Barcelona"/>
                 <ul class="list-unstyled">
                   <li>
                     <h4><a href="viagem/index.php#trip_three">Luh em Barcelona</a></h4>
