@@ -364,7 +364,7 @@ img.square3 {
 /* smaller devices */
 
 @media (max-width: 320px) {
-  .viagem-margin-xxs {
+  .viagem-margin {
     margin-top: 20px;
   }
   .top-vlogs-margin {

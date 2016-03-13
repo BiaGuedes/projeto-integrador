@@ -218,7 +218,7 @@
 </div> <!-- final div row -->
 <div class="row">
   <section>
-    <h2 class="titles"><span>Últimos Posts</span></h2>
+    <h2 class="titles margin-mbl2"><span>Últimos Posts</span></h2>
     <ul class="list-inline">
       <div class="col-md-4 col-sm-4 col-xs-12">
         <li>
